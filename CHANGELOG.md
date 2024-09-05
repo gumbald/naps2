@@ -1,3 +1,22 @@
+Changes in 8.0b1:
+- Added a scanning sidebar
+  - Quickly change basic profile settings
+  - Click the icon in the bottom-left (top-left on Mac) to open/close
+  - Admins can set [HideSidebar](https://www.naps2.com/doc/org-use#hide-sidebar) to remove it entirely
+- Changed system requirements
+  - Windows 7, 8 and 8.1 are no longer supported
+  - Windows 10 1607+ is required
+  - macOS 10.15 and 11 are no longer supported
+  - macOS 12+ is required
+- Windows: Added support for dark themes
+- Windows: Added support for high-dpi screens
+- Windows: Installers are now signed
+  - This should remove SmartScreen notifications
+- Linux: Added support for high-dpi screens
+- Twain: Removed "Legacy" twain implementation option 
+- Performance improvements
+- Bug fixes
+
 Changes in 7.5.1:
 - Mac: Use more native icons
 - Fixed an issue loading profiles
